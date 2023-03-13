@@ -1,6 +1,8 @@
-# PruebaTecnicaAllride
+# Prueba Técnica AllRide
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.2.
+Este proyecto ha sido generado usando [Angular CLI](https://github.com/angular/angular-cli) version 15.2.2.
+
+**IMPORTANTE:** Debido a que el cliente usa Angular 15.x.x, se tuvo que forzar la instalación de la librería `ngx-socket-io` a la versión 3.4.0 para que fuese compatible con el servidor de Socket.io v2. Esto se hizo usando la opción `--force` al momento de su instalación. Se recomienda usar esta opción al momento de instalar el proyecto en su propia máquina.
 
 ## Development server
 
