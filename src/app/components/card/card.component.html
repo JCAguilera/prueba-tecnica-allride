@@ -1,0 +1,7 @@
+<div
+  class="card"
+  [ngClass]="{'no-background': !background}"
+  (dblclick)="onDoubleClick()"
+>
+  <ng-content></ng-content>
+</div>

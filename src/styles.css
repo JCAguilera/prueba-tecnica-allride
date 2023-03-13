@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+body,
+html {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  background-color: #f6f6f6;
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2 {
+  font-weight: 400;
+  font-family: "Tilt Warp", cursive;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  margin: 0;
+  font-size: 2rem;
+  display: inline-block;
+  font-family: inherit;
+  font-weight: normal;
+}

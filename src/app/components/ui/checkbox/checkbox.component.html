@@ -1,0 +1,13 @@
+<div class="round">
+  <input
+    type="checkbox"
+    [id]="id"
+    [checked]="checked"
+    (change)="onToggledCheckbox($event)"
+    [disabled]="disabled"
+  />
+  <label
+    [for]="id"
+    [ngStyle]="{'cursor':disabled ? 'default' : 'pointer'}"
+  ></label>
+</div>

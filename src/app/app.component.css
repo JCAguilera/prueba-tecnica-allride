@@ -1,0 +1,117 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  margin: 0 auto;
+  max-width: 1200px;
+  min-width: 801px;
+}
+
+.row {
+  display: block;
+  flex-direction: row;
+  justify-content: start;
+  padding: 0 50px;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  font-weight: 400;
+  display: block;
+}
+
+.checkbox {
+  width: 2rem;
+  height: 2rem;
+  accent-color: white;
+  background-color: #00ff0d;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+header,
+main {
+  padding: 20px 200px;
+}
+
+@media screen and (max-width: 1200px) {
+  header,
+  main {
+    padding: 20px;
+  }
+}
+
+main {
+  margin-top: 20px;
+  flex: 1 0 auto;
+}
+
+footer {
+  padding: 10px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.task-card-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.task-card-main {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+.task-card-actions {
+  display: inline-block;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: all 0.2s ease-in-out;
+}
+
+app-card:hover .task-card-actions {
+  height: auto;
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+
+.task-card-action {
+  font-size: 1.2rem;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.task-card-action.edit-icon {
+  color: blue;
+}
+
+.task-card-action.delete-icon {
+  color: red;
+}
+
+.task-card-action.add-icon {
+  color: green;
+}
+
+app-text-input {
+  flex-grow: 1;
+}
+
+.reload-icon {
+  cursor: pointer;
+}

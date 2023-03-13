@@ -1,0 +1,11 @@
+<div>
+  <input
+    #theInput
+    type="text"
+    [value]="value"
+    [disabled]="disabled"
+    [placeholder]="placeholder"
+    (keyup)="onKeyUp($event)"
+    (keyup.esc)="onEscapePressed($event)"
+  />
+</div>

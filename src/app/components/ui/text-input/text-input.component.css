@@ -1,0 +1,11 @@
+input[type="text"] {
+  border: none;
+  background-color: inherit;
+  font-size: 2rem;
+  outline-color: transparent;
+  flex-grow: 1;
+}
+
+div {
+  display: flex;
+}
